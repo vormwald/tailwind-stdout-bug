@@ -1,9 +1,9 @@
 ## Tailwind CLI STDOUT bug
 
 Running the CLI with an empty `-o` option creates a file called 
-`./true` which contains the generated CSS content.
+[`./true`](https://github.com/vormwald/tailwind-stdout-bug/blob/714c8a50dbd4aad779c7241c23607b7367a939a9/v4/true) which contains the generated CSS content.
 
-### Version 3
+### [Version 3](https://github.com/vormwald/tailwind-stdout-bug/tree/714c8a50dbd4aad779c7241c23607b7367a939a9/v3)
 
 ```shell
 cd v3/
@@ -14,7 +14,7 @@ npx tailwindcss -i ./input.css
 #=> see generated tailwind output
 ```
 
-### Version 4
+### [Version 4](https://github.com/vormwald/tailwind-stdout-bug/tree/714c8a50dbd4aad779c7241c23607b7367a939a9/v4)
 
 ```shell
 cd v4 
